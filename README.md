@@ -1,8 +1,9 @@
-# js-lab-85
-### Lab85 String: การตัดข้อความ
-จงเขียนฟังก์ชัน truncate(str, length) เพื่อตัดข้อความ ถ้าหากข้อความมีความยาวมากกว่ากำหนด ให้ตัดความยาวของข้อความให้เท่ากับความยาวที่กำหนดแล้วต่อท้ายด้วย …
-#### ถ้าความยาวข้อความสั้นกว่าความยาวที่กำหนดให้ return เป็นข้อความเดิม
+# js-lab-86
+### Lab86 String: การแปลงค่า string
+จงเขียนฟังก์ชัน extractCurrencyValue(string, rate) ในการแปลงค่า string ที่อยู่ในรูปแบบสกุลเงินดอลลาร์ ให้อยู่ในรูปแบบสกุลเงินบาท
+#### rate คือ อัตราในการแปลงดอลลาร์ให้เป็นบาท
+
+ตัวอย่าง ผลลัพธ์ของฟังก์ชัน
 ```JavaScript
-truncate("What I'd like to tall on this topic is:", 20); // What I'd like to te...
-truncate("Hi everyone!", 20); // Hi everyone!
+extractCurrencyValue('$120', 30); // THB3600
 ```

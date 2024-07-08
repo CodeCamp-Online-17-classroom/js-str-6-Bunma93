@@ -7,3 +7,4 @@
 ```JavaScript
 extractCurrencyValue('$120', 30); // THB3600
 ```
+-ปฏิพงษศกร บุญมา(เจมส์)
